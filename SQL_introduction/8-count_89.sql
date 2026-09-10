@@ -1,2 +1,4 @@
 -- Display numbers of record of if = 89
-SELECT COUNT(*) first_table WHERE id = 89;
+SELECT COUNT(*) AS total_records 
+FROM first_table 
+WHERE id = 89;
